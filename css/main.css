@@ -3,7 +3,20 @@ body {
 	height: 100vh;
 	color: #263343;
 	background-color: #f8e71d;
+	font-family: 'Open Sans';
 	overflow: hidden;
+}
+
+.v-mid {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: -moz-box;
+	display: flex;
+
+	-webkit-align-items: center;
+	   -moz-align-items: center;
+		-ms-align-items: center;
+			align-items: center;
 }
 
 .fo {
@@ -54,8 +67,29 @@ body {
 	margin-top: 50px;
 }
 
-.title img {
+.title .imgWrap {
+	display: inline-block;
 	margin: 0px 5px;
+	position: relative;
+}
+
+.title .imgWrap::before,
+.title .imgWrap::after {
+	content: '4';
+}
+
+.title .imgWrap::before {
+	margin-right: -40px;
+}
+
+.title .imgWrap::after {
+	margin-left: -45px;
+}
+
+.cross {
+	position: absolute;
+	top: -15px;
+	left: 70px;
 }
 
 .warn {
@@ -68,6 +102,7 @@ body {
 .home {
 	width: 180px;
 	padding: 15px 0px;
+	font-size: 14px;
 	line-height: 20px;
 	text-align: center;
 	color: white;
