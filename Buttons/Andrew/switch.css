@@ -1,4 +1,4 @@
-.switch {
+.answitch {
 	width: 200px;
 	height: 100px;
 	background-color: white;
@@ -6,7 +6,7 @@
 	overflow: auto;
 }
 
-.circle {
+.answitch .circle {
 	width: 45%;
 	height: 90%;
 	background-color: #F3E5D3;
@@ -22,13 +22,13 @@
 			transition: all .5s;
 }
 
-.checked .circle {
+.answitch.checked .circle {
 	margin-left: 50%;
 	background-color: #7E86F9;
 	box-shadow: 0px 3px 5px rgba(123,134,249,0.5);
 }
 
-.line {
+.an-line {
 	width: 50%;
 	height: 5%;
 	min-height: 2px;
@@ -44,19 +44,19 @@
 			transition: all .5s;
 }
 
-.no1 {
+.an-left {
 	-webkit-transform: rotate(45deg);
 		-ms-transform: rotate(45deg);
 			transform: rotate(45deg);
 }
 
-.no2 {
+.an-right {
 	-webkit-transform: rotate(135deg);
 		-ms-transform: rotate(135deg);
 			transform: rotate(135deg);
 }
 
-.checked .no1 {
+.checked .an-left {
 	width: 30%;
 	top: 60%;
 	left: 15%;
@@ -65,7 +65,7 @@
 			transform: rotate(225deg);
 }
 
-.checked .no2 {
+.checked .an-right {
 	width: 60%;
 	top: 50%;
 	left: 30%;
