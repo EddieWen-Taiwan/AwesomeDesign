@@ -1,0 +1,56 @@
+.switch {
+	width: 200%;
+	height: 100%;
+	padding: 10% 0px;
+	background-color: white;
+	border-radius: 999px;
+	position: relative;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background-color: #F3E5D3;
+	border-radius: 999px;
+	margin-left: 5%;
+}
+
+.valueIsTrue .circle {
+	margin-left: 45%;
+	background-color: #7E86FA;
+	position: relative;
+}
+
+.line {
+	width: 33%;
+	height: 5%;
+	background-color: white;
+	border-radius: 999px;
+	position: absolute;
+	top: 48%;
+	left: 13%;
+}
+
+.no1 {
+	-webkit-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+			transform: rotate(45deg);
+}
+
+.no2 {
+	-webkit-transform: rotate(135deg);
+		-ms-transform: rotate(135deg);
+			transform: rotate(135deg);
+}
+
+.valueIsTrue .no1 {
+	width: 30%;
+	top: 60%;
+	left: 15%;
+}
+
+.valueIsTrue .no2 {
+	width: 60%;
+	top: 50%;
+	left: 30%;
+}
