@@ -26,13 +26,21 @@
 	<link rel="stylesheet" href="not-important.css" />
 	<link rel="stylesheet" href="switch.css" />
 
+	<script type="text/javascript" src="../../library/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready( function(){
+		$('.circle').on( 'click', function(){
+			$('.switch').toggleClass('valueIsTrue');
+		});
+	});
+	</script>
+
 </head>
 
 <body class="v-mid">
 
 	<div class="size">
 		<div class="switch">
-		<!-- <div class="switch valueIsTrue"> -->
 			<div class="circle">
 				<div class="line no1"></div>
 				<div class="line no2"></div>

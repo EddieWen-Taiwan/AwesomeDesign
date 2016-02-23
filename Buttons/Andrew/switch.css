@@ -14,6 +14,11 @@
 	border-radius: 999px;
 	margin-left: 5%;
 	cursor: pointer;
+
+	-webkit-transition: all .3s;
+	   -moz-transition: all .3s;
+		 -o-transition: all .3s;
+			transition: all .3s;
 }
 
 .valueIsTrue .circle {
@@ -30,6 +35,11 @@
 	position: absolute;
 	top: 48%;
 	left: 13%;
+
+	-webkit-transition: all .3s;
+	   -moz-transition: all .3s;
+		 -o-transition: all .3s;
+			transition: all .3s;
 }
 
 .no1 {
@@ -48,10 +58,16 @@
 	width: 30%;
 	top: 60%;
 	left: 15%;
+	-webkit-transform: rotate(405deg);
+		-ms-transform: rotate(405deg);
+			transform: rotate(405deg);
 }
 
 .valueIsTrue .no2 {
 	width: 60%;
 	top: 50%;
 	left: 30%;
+	-webkit-transform: rotate(495deg);
+		-ms-transform: rotate(495deg);
+			transform: rotate(495deg);
 }
