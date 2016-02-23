@@ -24,7 +24,8 @@
 
 .checked .circle {
 	margin-left: 50%;
-	background-color: #7E86FA;
+	background-color: #7E86F9;
+	box-shadow: 0px 3px 5px rgba(123,134,249,0.5);
 }
 
 .line {
