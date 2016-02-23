@@ -7,8 +7,8 @@ body {
 }
 
 .size {
-	width: 200px;
-	height: 100px;
+	/*width: 200px;
+	height: 100px;*/
 	margin: 0px auto;
 }
 
@@ -25,11 +25,11 @@ body {
 }
 
 .switch {
-	width: 100%;
+	width: 200%;
 	height: 100%;
+	padding: 10% 0px;
 	background-color: white;
-	border-radius: 60px;
-	border: 10px solid white;
+	border-radius: 999px;
 	position: relative;
 }
 
@@ -37,11 +37,11 @@ body {
 	width: 100px;
 	height: 100px;
 	background-color: #F3E5D3;
-	border-radius: 50px;
-	margin-left: 0px;
+	border-radius: 999px;
+	margin-left: 5%;
 }
 
 .valueIsTrue .circle {
-	margin-left: 50%;
+	margin-left: 45%;
 	background-color: #7E86FA;
 }
