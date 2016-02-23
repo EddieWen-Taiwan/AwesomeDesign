@@ -116,33 +116,31 @@ body {
 }
 
 .animated {
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
+	-webkit-animation-duration: 2s;
+			animation-duration: 2s;
+	-webkit-animation-fill-mode: both;
+			animation-fill-mode: both;
 }
 
 .animated.infinite {
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+			animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes flash {
-	45%, 55%, 65% {
-		opacity: 0.7;
+	47%, 61%, 75% {
+		opacity: .8;
 	}
-
-	from, 40%, 50%, 60%, 70%, to {
+	from, 40%, 54%, 68%, to {
 		opacity: 0;
 	}
 }
 
 @keyframes flash {
-	45%, 55%, 65% {
-		opacity: 0.7;
+	47%, 61%, 75% {
+		opacity: .8;
 	}
-
-	from, 40%, 50%, 60%, 70%, to {
+	from, 40%, 54%, 68%, to {
 		opacity: 0;
 	}
 }
