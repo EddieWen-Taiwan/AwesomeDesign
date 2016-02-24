@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'octicons';
+  src: url('octicons.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.octicon, .mega-octicon {
+  font: normal normal normal 20px/1 octicons;
+  display: inline-block;
+  text-decoration: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.octicon-lock:before{content:'\f06a'}
+.octicon-mail:before{content:'\f03b'}
+.octicon-mark-github:before{content:'\f00a'}
