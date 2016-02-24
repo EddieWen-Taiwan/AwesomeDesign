@@ -1,5 +1,5 @@
 ## Stephanie Schlim
-#### Sign up form
+### Sign up form
 
 Implementataion:  
 <http://github.eddiewen.me/Implementation/Form/Stephanie/>

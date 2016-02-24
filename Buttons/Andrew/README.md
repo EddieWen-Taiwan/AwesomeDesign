@@ -1,5 +1,5 @@
 ## Andrew
-#### Yet another toggle animation
+### Yet another toggle animation
 
 Implementation:  
 <http://github.eddiewen.me/Implementation/Buttons/Andrew/>
