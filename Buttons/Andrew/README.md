@@ -1,7 +1,7 @@
 ## Andrew
 #### Yet another toggle animation
 
-<http://github.eddiewen.me/AwesomeDesign/Buttons/Andrew/>
+<http://github.eddiewen.me/Implementation/Buttons/Andrew/>
 
 ![switch](switch.gif)
 
