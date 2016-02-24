@@ -1,4 +1,4 @@
-## Awesome Design
+## Implementation
 ~~~javascript
 function eddie( .psd ) {
 	return .html;
