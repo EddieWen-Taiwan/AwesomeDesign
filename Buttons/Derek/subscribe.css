@@ -26,7 +26,7 @@ body {
 			align-items: center;
 }
 
-#search {
+#subscribe {
 	width: 540px;
 	padding: 37px 20px 13px;
 	color: white;
@@ -40,11 +40,11 @@ body {
 	cursor: text;
 }
 
-#search.focused {
+#subscribe.focused {
 	background-color: #044F9E;
 }
 
-#search:before {
+#subscribe:before {
 	content: 'Email Address';
 	width: 180px;
 	height: 20px;
@@ -60,13 +60,13 @@ body {
 			transition: all .5s;
 }
 
-#search.focused:before {
+#subscribe.focused:before {
 	font-size: 15px;
 	color: #5795D5;
 	top: 15px;
 }
 
-#search .btn {
+#subscribe .btn {
 	width: 120px;
 	height: 100%;
 	color: #044F9E;
@@ -85,28 +85,28 @@ body {
 			transition: all .5s;
 }
 
-#search.focused .btn {
+#subscribe.focused .btn {
 	opacity: 1;
 }
 
-#search .btn.clickable {
+#subscribe .btn.clickable {
 	color: white;
 	background-color: #639EDB;
 	cursor: pointer;
 }
 
-#search .btn.clickable:hover {
+#subscribe .btn.clickable:hover {
 	background-color: #5C94CD;
 }
 
-#search .btn.clicked {
+#subscribe .btn.clicked {
 	width: 100%;
 	color: white;
 	background-color: #639EDB;
 	opacity: 1;
 }
 
-#search .btn:before {
+#subscribe .btn:before {
 	content: 'OK';
 	width: 1px;
 	height: 1px;
@@ -118,7 +118,7 @@ body {
 	left: 45px;
 }
 
-#search .btn.clicked:before {
+#subscribe .btn.clicked:before {
 	content: 'THANKS! CHECK YOUR EMAIL.';
 	width: 320px;
 	left: 140px;
@@ -136,7 +136,7 @@ input {
 	opacity: 0;
 }
 
-#search.focused input {
+#subscribe.focused input {
 	opacity: 1;
 }
 

@@ -1,6 +1,6 @@
 $(document).ready( () => {
 
-	$('#search').on( 'click', (e) => {console.log('click');
+	$('#subscribe').on( 'click', (e) => {console.log('click');
 		$('input').focus();
 		if( !$(e.currentTarget).hasClass('focused') ) {
 			$(e.currentTarget).addClass('focused');
@@ -8,7 +8,7 @@ $(document).ready( () => {
 	});
 
 	$('input').blur( () => {
-		$('#search').removeClass('focused');
+		$('#subscribe').removeClass('focused');
 	}).on( 'keyup', (e) => {
 		if( $(e.currentTarget).val() == '' ) {
 			$('.btn').removeClass('clickable');
@@ -18,9 +18,9 @@ $(document).ready( () => {
 		}
 	});
 
-	$('#search').on( 'click', '.btn.clickable', (e) => {
+	$('#subscribe').on( 'click', '.btn.clickable', (e) => {
 		$(e.currentTarget).removeClass('clickable').addClass('clicked');
-		$('#search').off('click');
+		$('#subscribe').off('click');
 	});
 
 });
