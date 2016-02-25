@@ -7,18 +7,145 @@ body {
 #share {
 	width: 150px;
 	height: 50px;
+	font-size: 15px;
+	line-height: 16px;
 	background-color: white;
 	border-radius: 25px;
+	box-shadow: 1px 2px 5px rgba(0,0,0,0.1);
 	position: relative;
 	cursor: pointer;
 }
 
 #share .title {
 	color: #EECE69;
-	font-size: 15px;
-	line-height: 16px;
 	letter-spacing: 1px;
 	position: absolute;
-	top: 16px;
+	top: 17px;
 	left: 50px;
+	z-index: 10;
+}
+
+.animation {
+	-webkit-transition: all .3s;
+	   -moz-transition: all .3s;
+		 -o-transition: all .3s;
+			transition: all .3s;
+}
+
+#share.show .title {
+	top: -40px;
+	left: 20px;
+	color: #C7D4E8;
+}
+
+.title .cross {
+	width: 15px;
+	height: 15px;
+	background-image: url(cross.png);
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	right: -60px;
+	cursor: pointer;
+}
+
+#share.show .cross {
+	opacity: 0.7;
+	-webkit-transition-delay: .1s;
+			transition-delay: .1s;
+	-webkit-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+			transform: rotate(360deg);
+}
+
+#share.show .cross:hover {
+	opacity: 1;
+}
+
+.detail {
+	width: 100%;
+	height: 0px;
+	padding: 0px;
+	background-color: rgba(255,255,255,1);
+	border-radius: 25px;
+	box-shadow: 1px 2px 5px rgba(0,0,0,0);
+	position: absolute;
+	top: 25px;
+	overflow: hidden;
+}
+
+#share.show .detail {
+	height: 130px;
+	padding: 20px 0px;
+	box-shadow: 1px 2px 5px rgba(0,0,0,0.1);
+	cursor: auto;
+	top: -60px;
+}
+
+.detail > * {
+	-webkit-transition: all .2s;
+	   -moz-transition: all .2s;
+		 -o-transition: all .2s;
+			transition: all .2s;
+}
+
+.detail .media {
+	width: 0px;
+	font-size: 15px;
+	line-height: 20px;
+	margin: 7px 20px;
+	opacity: 0;
+	overflow: hidden;
+	position: relative;
+}
+
+#share.show .media {
+	width: 110px;
+	opacity: 1;
+}
+
+.media.fb {
+	margin-top: 25px;
+	color: #5679C4;
+}
+
+.media.tw {
+	color: #55B3FA;
+	-webkit-transition-delay: .1s;
+			transition-delay: .1s;
+}
+
+.media.go {
+	color: #F97156;
+	-webkit-transition-delay: .2s;
+			transition-delay: .2s;
+}
+
+.media .num {
+	position: absolute;
+	right: 0px;
+}
+
+input {
+	width: 2px;
+	border: none;
+	border-radius: 5px;
+	font-size: 13px;
+	margin: 0px 20px;
+	padding: 5px;
+	color: #B9BEC3;
+	background-color: #F3F7FB;
+	display: block;
+	opacity: 0;
+	-webkit-transition-delay: .3s !important;
+			transition-delay: .3s !important;
+}
+
+#share.show input {
+	width: 100px;
+	opacity: 1;
+}
+
+input:focus {
+	outline: none;
 }

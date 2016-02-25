@@ -32,8 +32,11 @@
 	<script type="text/javascript" src="../../library/jquery.min.js"></script>
 	<script type="text/javascript">
 	$(document).ready( function(){
-		$('.circle').on( 'click', function(){
-			$('.answitch').toggleClass('checked');
+		$('#share').on( 'click', function(){
+			$(this).toggleClass('show');
+		});
+		$('.detail').on( 'click', function(e){
+			e.stopPropagation();
 		});
 	});
 	</script>
@@ -43,8 +46,17 @@
 <body class="v-mid">
 	<div class="mid">
 
-		<div id="share">
-			<div class="title">SHARE</div>
+		<div id="share" class="">
+			<div class="title animation">SHARE
+				<div class="cross animation"></div>
+			</div>
+
+			<div class="detail animation">
+				<div class="media fb">Facebook<span class="num">12</span></div>
+				<div class="media tw">Twitter<span class="num">50</span></div>
+				<div class="media go">Google +<span class="num">248</span></div>
+				<input type="text" value="https://dribbble.com/shots/2316152-Sharing-button" />
+			</div>
 		</div>
 
 	</div>
