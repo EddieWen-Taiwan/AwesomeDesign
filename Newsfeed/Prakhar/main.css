@@ -1,0 +1,52 @@
+body {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #F7FAFD;
+	font-family: 'Microsoft Yahei', 'Helvetica Neue';
+}
+
+header {
+	width: 100%;
+	height: 20px;
+	padding: 27px 0px;
+	background-color: #568DD3;
+}
+
+header .icon {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+
+header .icon:hover {
+	opacity: 0.7;
+}
+
+.navi {
+	background-image: url(images/navi.png);
+	margin-left: 35px;
+}
+
+header .right-group {
+	font-size: 20px;
+	line-height: 20px;
+	color: #DDE8F6;
+	position: absolute;
+	top: 27px;
+	right: 35px;
+}
+
+header .right-group > * {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+header .right-group i {
+	margin-top: -4px;
+	vertical-align: top;
+}
+
+.two-dots {
+	background-image: url(images/dots.png);
+}
