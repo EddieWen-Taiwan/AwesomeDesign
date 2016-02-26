@@ -11,6 +11,10 @@ header {
 	height: 20px;
 	padding: 27px 0px;
 	background-color: #568DD3;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 3;
 }
 
 header .icon {
@@ -47,6 +51,46 @@ header .right-group i {
 	vertical-align: top;
 }
 
-.two-dots {
+header .two-dots {
 	background-image: url(images/dots.png);
+}
+
+#drawer {
+	height: 100vh;
+	padding: 0px 20px;
+	background-color: white;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+.self-sticker {
+	width: 45px;
+	height: 45px;
+	border-radius: 999px;
+	background-image: url(images/sticker/self.png);
+	background-size: 45px;
+	margin-top: 144px;
+	overflow: hidden
+}
+
+.items {
+	width: 45px;
+	margin-top: 85px;
+	text-align: center;
+	color: #DBE6F4;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.items .icon {
+	width: 100%;
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+
+.items .icon.active,
+.items .icon:hover {
+	color: #568DD3;
+	opacity: 1;
 }
