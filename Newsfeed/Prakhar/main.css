@@ -6,6 +6,11 @@ body {
 	font-family: 'Microsoft Yahei', 'Helvetica Neue';
 }
 
+i.fa {
+	font-size: 20px;
+	line-height: 20px;
+}
+
 header {
 	width: 100%;
 	height: 20px;
@@ -33,8 +38,6 @@ header .icon:hover {
 }
 
 header .right-group {
-	font-size: 20px;
-	line-height: 20px;
 	color: #DDE8F6;
 	position: absolute;
 	top: 27px;
@@ -46,8 +49,8 @@ header .right-group > * {
 	margin-left: 30px;
 }
 
-header .right-group i {
-	margin-top: -4px;
+header i.fa {
+	margin-top: -5px;
 	vertical-align: top;
 }
 
@@ -79,8 +82,6 @@ header .two-dots {
 	margin-top: 85px;
 	text-align: center;
 	color: #DBE6F4;
-	font-size: 20px;
-	line-height: 20px;
 }
 
 .items .icon {
@@ -92,5 +93,52 @@ header .two-dots {
 .items .icon.active,
 .items .icon:hover {
 	color: #568DD3;
-	opacity: 1;
+}
+
+.content {
+	height: 1660px;
+	background-color: rgba(0,0,0,0.2);
+	margin: 84px 10px 30px 95px;
+	position: relative;
+}
+
+h4 {
+	margin: 0px;
+	color: #8E9EB1;
+}
+
+
+
+#recent {
+	width: 270px;
+	padding: 40px 25px;
+	border-radius: 5px;
+	background-color: white;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#recent h4 {
+	position: relative;
+}
+
+#recent h4 i {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#recent .row {
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+#recent .row h4 {
+	color: #568DD3;
+	margin-bottom: 15px;
+}
+
+#recent .row span {
+	font-size: 14px;
 }
