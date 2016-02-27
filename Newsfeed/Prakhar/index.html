@@ -86,8 +86,91 @@
 	</div>
 
 	<!-- Main -->
-	<div class="content">
+	<div class="newswall">
 
+		<!-- People's Posts -->
+		<div id="posts">
+			<div class="column left">
+				<div id="input" class="post">
+					<textarea placeholder="Write Something..." onkeyup="auto_grow(this)"></textarea>
+					<div class="tool-bar">
+						<div class="icon">
+							<i class="fa fa-picture-o"></i>
+						</div>
+						<div class="icon">
+							<i class="fa fa-video-camera"></i>
+						</div>
+						<div class="icon">
+							<i class="fa fa-map-marker"></i>
+						</div>
+						<div class="share-btn">Share</div>
+					</div>
+				</div>
+				<div class="post">
+					<div class="owner">
+						<div class="sticker">
+							<img src="images/sticker/sticker-1.png" />
+						</div>
+						<div class="info">
+							<h4>Jayda Pollock</h4>
+							<div class="job">Designer</div>
+						</div>
+						<div class="time">8 hours</div>
+					</div>
+					<div class="content">
+						Happy to get a row in fashion design by Twin Brothers
+					</div>
+				</div>
+				<div class="post">
+					<div class="owner">
+						<div class="sticker">
+							<img src="images/sticker/sticker-3.png" />
+						</div>
+						<div class="info">
+							<h4>April</h4>
+							<div class="job">Photographer</div>
+						</div>
+						<div class="time">18 hours</div>
+					</div>
+					<div class="content">
+						
+					</div>
+				</div>
+			</div><div class="column right">
+				<div class="post">
+					<div class="owner">
+						<div class="sticker">
+							<img src="images/sticker/sticker-2.png" />
+						</div>
+						<div class="info">
+							<h4>Tahila Ntini</h4>
+							<div class="job">Nature Lover</div>
+						</div>
+						<div class="time">5 hours</div>
+					</div>
+					<div class="content">
+						
+					</div>
+				</div>
+				<div class="post">
+					<div class="owner">
+						<div class="sticker">
+							<img src="images/sticker/sticker-4.png" />
+						</div>
+						<div class="info">
+							<h4>Winter Martin</h4>
+							<div class="job">Teacher</div>
+						</div>
+						<div class="time">12 hours</div>
+					</div>
+					<div class="content">
+						Get a perfect weekend holidays 3 in a row to be with family, friends and my sweet little puppy
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Recent Activities -->
 		<div id="recent">
 			<h4>Recent
 				<i class="fa fa-history"></i>
@@ -119,6 +202,13 @@
 		</div>
 
 	</div>
+
+<script type="text/javascript">
+function auto_grow(element) {
+	element.style.height = "5px";
+	element.style.height = (element.scrollHeight)+"px";
+}
+</script>
 
 </body>
 
