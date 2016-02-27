@@ -53,7 +53,7 @@
 	</header>
 
 	<!-- Left Drawer -->
-	<div id="drawer">
+	<div id="drawer" onmouseenter="disableBodyScroll()" onmouseleave="enableBodyScroll()">
 		<div class="self-sticker"></div>
 		<div class="items">
 			<div class="icon active">
@@ -275,6 +275,14 @@
 function auto_grow(element) {
 	element.style.height = "5px";
 	element.style.height = (element.scrollHeight)+"px";
+}
+
+function disableBodyScroll() {
+	document.body.style.overflow = 'hidden';
+}
+
+function enableBodyScroll() {
+	document.body.style.overflow = 'auto';
 }
 </script>
 
