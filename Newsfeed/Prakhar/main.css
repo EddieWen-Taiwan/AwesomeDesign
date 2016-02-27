@@ -105,8 +105,6 @@ header .two-dots {
 }
 
 .newswall {
-	height: 1660px;
-	background-color: rgba(0,0,0,0.2);
 	margin: 84px 10px 30px 95px;
 	position: relative;
 }
@@ -153,23 +151,20 @@ h4 {
 
 #posts {
 	margin-right: 330px;
-	border-radius: 5px;
-	background-color: rgba(0,0,0,0.3);
-	padding-bottom: 100px;
 }
 
 #posts .column {
 	width: 50%;
-	height: 670px;
 	display: inline-block;
 	vertical-align: top;
 }
 
 .post {
 	margin-bottom: 10px;
-	padding: 40px;
+	padding: 40px 0px;
 	border-radius: 5px;
 	background-color: white;
+	overflow: auto;
 }
 
 .column.left .post {
@@ -247,6 +242,8 @@ textarea:focus {
 
 .post .owner {
 	height: 60px;
+	margin: 0px 40px;
+	margin-bottom: 0px;
 	color: #BECCDB;
 	position: relative;
 }
@@ -289,4 +286,43 @@ textarea:focus {
 	line-height: 28px;
 	color: #8E9EB1;
 	letter-spacing: 1px;
+}
+
+.post .content .text {
+	margin: 0px 40px;
+}
+
+.post .picture img {
+	width: 100%;
+}
+
+.action-bar {
+	margin: 25px 40px;
+}
+
+.action {
+	color: #DBE6F4;
+	margin-right: 30px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.action:hover {
+	color: #568DD3;
+}
+
+.action > * {
+	display: inline-block;
+}
+
+.action i {
+	margin-right: 7px;
+	font-size: 15px;
+	line-height: 15px;
+}
+
+.action .num {
+	color: #8E9EB1;
+	font-size: 15px;
+	line-height: 15px;
 }
