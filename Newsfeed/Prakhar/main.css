@@ -326,3 +326,14 @@ textarea:focus {
 	font-size: 15px;
 	line-height: 15px;
 }
+
+.add-comment {
+	font-size: 14px;
+	color: #BECCDB;
+	margin: 0px 40px;
+	cursor: pointer;
+}
+
+.add-comment:hover {
+	color: #568DD3;
+}
