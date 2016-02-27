@@ -188,6 +188,7 @@ h4 {
 	color: #8E9EB1;
 	border: none;
 	resize: none;
+	overflow: hidden;
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
