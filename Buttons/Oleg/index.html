@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<meta name="description" content="Button - favorites" />
+	<meta name="author" content="Designed by Derek, coded by Eddie" />
+	<meta name="URL" content="http://github.eddiewen.me/Implementation/Buttons/Oleg/" />
+	<meta name="image" content="http://github.eddiewen.me/Implementation/Buttons/Oleg/favoties.png" />
+
+	<!-- Open Graph -->
+	<meta property="og:site_name" content="Oleg's Favorites" />
+	<meta property="og:title" content="Oleg's Favorites" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://github.eddiewen.me/Implementation/Buttons/Oleg/" />
+	<meta property="og:image" content="http://github.eddiewen.me/Implementation/Buttons/Oleg/favoties.png" />
+	<meta property="og:description" content="Button - favorites" />
+
+	<title>Oleg's Favorites</title>
+
+	<!-- Font-Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	<!-- my CSS -->
+	<link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+	<div class="window">
+		<div class="bar">
+			<i id="heart" class="fa fa-heart" data-checked="false"></i>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+	document.getElementById('heart').addEventListener( 'click', function(e) {
+		if( e.srcElement.getAttribute('data-checked') == 'true' ) {
+			e.srcElement.setAttribute('data-checked', 'false');
+			e.srcElement.className = "fa fa-heart";
+		}
+		else {
+			e.srcElement.setAttribute('data-checked', 'true');
+			e.srcElement.className += " heartbeat";
+		}
+	});
+	</script>
+
+</body>
+
+</html>
+
+

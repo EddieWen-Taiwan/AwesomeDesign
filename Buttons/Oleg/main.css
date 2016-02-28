@@ -1,0 +1,77 @@
+body {
+	width: 100%;
+	height: 100vh;
+	margin: 0px;
+	padding: 0px;
+	background-color: #20C1FE;
+	overflow: hidden;
+}
+
+.window {
+	width: 70%;
+	height: 85%;
+	margin-top: 15%;
+	background-color: #F1F4F6;
+	border-radius: 0px 50px 0px 0px;
+}
+
+.bar {
+	padding: 50px 0px;
+	background-color: white;
+	border-radius: 0px 50px 0px 0px;
+	text-align: right;
+}
+
+i.fa {
+	font-size: 120px;
+	line-height: 120px;
+	color: #D9DDDF;
+	margin-right: 100px;
+	cursor: pointer;
+
+	-webkit-transition: all .3s;
+	   -moz-transition: all .3s;
+		 -o-transition: all .3s;
+			transition: all .3s;
+}
+
+i.fa:hover {
+	color: #D4D4D4;
+}
+
+i.fa.heartbeat {
+	color: #FF3946;
+}
+
+.heartbeat {
+	-webkit-animation-duration: .4s;
+			animation-duration: .4s;
+	-webkit-animation-fill-mode: both;
+			animation-fill-mode: both;
+	-webkit-animation-iteration-count: infinite;
+			animation-iteration-count: infinite;
+	-webkit-animation-name: heart;
+			animation-name: heart;
+}
+
+@-webkit-keyframes heart {
+	from, to {
+		-webkit-transform: scale3d(1, 1, 1);
+				transform: scale3d(1, 1, 1);
+	}
+	50% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1);
+				transform: scale3d(1.1, 1.1, 1.1);
+	}
+}
+
+@keyframes heart {
+	from, to {
+		-webkit-transform: scale3d(1, 1, 1);
+				transform: scale3d(1, 1, 1);
+	}
+	50% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1);
+				transform: scale3d(1.1, 1.1, 1.1);
+	}
+}
