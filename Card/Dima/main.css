@@ -47,6 +47,7 @@ body {
 	width: 585px;
 	position: relative;
 	text-align: center;
+	color: #1C1C1C;
 }
 
 h3 {
@@ -63,4 +64,110 @@ h3 {
 	line-height: 16px;
 	font-weight: 300;
 	letter-spacing: 1px;
+}
+
+#progress {
+	width: 365px;
+	height: 10px;
+	margin: 0px auto;
+	margin-top: 25px;
+	padding-top: 15px;
+	position: relative;
+}
+
+.time {
+	font-size: 10px;
+	font-weight: 800;
+	line-height: 10px;
+	position: absolute;
+	top: 0px;
+	left: -5px;
+}
+
+.time.total {
+	color: #26A3FD;
+	left: auto;
+	right: -5px;
+}
+
+.bar {
+	width: 100%;
+	height: 10px;
+	background-color: #D7DEE3;
+	position: relative;
+}
+
+.bar:before, .bar:after,
+.current:before, .current:after {
+	content: '';
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background-color: #D7DEE3;
+	position: absolute;
+	top: 0px;
+	left: -5px;
+}
+
+.bar:after, .current:after {
+	left: auto;
+	right: -5px;
+}
+
+.current {
+	width: 24%;
+	height: 100%;
+	background-color: #26A3FD;
+	z-index: 3;
+	position: relative;
+}
+
+.current:before, .current:after {
+	background-color: #26A3FD;
+}
+
+.btn {
+	cursor: pointer;
+
+	-webkit-transition: all 0.2s;
+	   -moz-transition: all 0.2s;
+		 -o-transition: all 0.2s;
+			transition: all 0.2s;
+}
+
+.btn:hover {
+	opacity: 0.75;
+}
+
+#progress i.fa {
+	font-size: 16px;
+	line-height: 16px;
+	position: absolute;
+	bottom: -36px;
+	left: -3px;
+}
+
+#progress i.fa-random {
+	left: auto;
+	right: -3px;
+}
+
+#plays {
+	margin-top: 50px;
+	color: #43434C;
+}
+
+#plays .btn {
+	padding:  0px 25px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#plays i.fa {
+	font-size: 20px;
+	line-height: 36px;
+}
+
+#plays i.fa-play {
+	font-size: 36px;
 }
