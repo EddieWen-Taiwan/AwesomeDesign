@@ -24,13 +24,13 @@
 
 	<!-- my CSS -->
 	<link rel="stylesheet" href="not-important.css" />
-	<link rel="stylesheet" href="switch.css" />
+	<link rel="stylesheet" href="switch.min.css" />
 
 	<script type="text/javascript" src="../../library/jquery.min.js"></script>
 	<script type="text/javascript">
 	$(document).ready( function(){
 		$('.circle').on( 'click', function(){
-			$('.answitch').toggleClass('checked');
+			$('#answitch').toggleClass('checked');
 		});
 	});
 	</script>
@@ -41,11 +41,8 @@
 	<div class="mid">
 
 		<!-- AnSwitch -->
-		<div class="answitch">
-			<div class="circle">
-				<div class="an-line an-left"></div>
-				<div class="an-line an-right"></div>
-			</div>
+		<div id="answitch">
+			<div class="circle"></div>
 		</div>
 		<!-- over -->
 

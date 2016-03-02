@@ -4,6 +4,8 @@
 Implementation:  
 <http://github.eddiewen.me/Implementation/Button/Andrew/>
 
+If you like this switch, you might like to visit my another repo - [AnSwitch](https://github.com/EddieWen-Taiwan/AnSwitch)
+
 ----
 Andrew's design
 ![switch](switch.gif)
