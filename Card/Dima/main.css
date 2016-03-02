@@ -6,10 +6,10 @@ body {
 	background-color: #FDC3B2;
 	font-family: 'Open Sans';
 
-	background: -webkit-linear-gradient(left, #A9F8EA 49%, #FDC3B2 51%);
-	background:	   -moz-linear-gradient(right, #A9F8EA 49%, #FDC3B2 51%);
-	background:		 -o-linear-gradient(right, #A9F8EA 49%, #FDC3B2 51%);
-	background:			linear-gradient(to right, #A9F8EA 49% , #FDC3B2 51%);
+	background: -webkit-linear-gradient(135deg, #A9F8EA 50%, #FDC3B2 50%);
+	background:	   -moz-linear-gradient(135deg, #A9F8EA 50%, #FDC3B2 50%);
+	background:		 -o-linear-gradient(135deg, #A9F8EA 50%, #FDC3B2 50%);
+	background:			linear-gradient(135deg, #A9F8EA 50%, #FDC3B2 50%);
 }
 
 .v-mid {
@@ -22,8 +22,4 @@ body {
 	   -moz-align-items: center;
 		-ms-align-items: center;
 			align-items: center;
-}
-
-#bg-top {
-
 }
