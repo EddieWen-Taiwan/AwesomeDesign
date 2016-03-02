@@ -31,7 +31,7 @@ body {
 	position: relative;
 }
 
-.navi {
+.sidebar {
 	width: 125px;
 	height: 100%;
 	background-color: white;
@@ -64,12 +64,7 @@ body {
 	margin-bottom: 10px;
 }
 
-.person {
-	height: 350px;
-	margin-right: 125px;
-}
-
-.tool {
+.menu {
 	height: 80px;
 	margin-right: 125px;
 	padding: 10px 0px;
@@ -100,4 +95,42 @@ body {
 	font-size: 24px;
 	line-height: 24px;
 	margin-bottom: 7px;
+}
+
+.avatar {
+	height: 300px;
+	margin-right: 125px;
+	padding-top: 50px;
+}
+
+.profile {
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	margin: 0px auto;
+	background-image: url(images/sticker.jpg);
+}
+
+.bubble {
+	width: 160px;
+	height: 60px;
+	border-radius: 5px;
+	margin: 0px auto;
+	margin-top: 25px;
+	background-color: white;
+	text-align: center;
+	overflow: auto;
+}
+
+.name {
+	font-size: 14px;
+	font-weight: 600;
+	color: #0B1F3F;
+	margin-top: 12px;
+}
+
+.mail {
+	font-size: 12px;
+	font-style: italic;
+	color: #A2A6AE;
 }
