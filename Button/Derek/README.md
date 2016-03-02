@@ -2,7 +2,7 @@
 ### Subscribe
 
 Implementation: 
-<http://github.eddiewen.me/Implementation/Buttons/Derek/>
+<http://github.eddiewen.me/Implementation/Button/Derek/>
 
 ----
 

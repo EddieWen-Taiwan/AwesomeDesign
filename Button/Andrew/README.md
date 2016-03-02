@@ -2,7 +2,7 @@
 ### Yet another toggle animation
 
 Implementation:  
-<http://github.eddiewen.me/Implementation/Buttons/Andrew/>
+<http://github.eddiewen.me/Implementation/Button/Andrew/>
 
 ----
 Andrew's design

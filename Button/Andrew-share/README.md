@@ -2,7 +2,7 @@
 ### Sharing button
 
 Implementation:  
-<http://github.eddiewen.me/Implementation/Buttons/Andrew-share/>
+<http://github.eddiewen.me/Implementation/Button/Andrew-share/>
 
 ----
 Andrew's design
