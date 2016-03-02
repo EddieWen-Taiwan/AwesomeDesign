@@ -27,8 +27,9 @@ body {
 #player {
 	width: 885px;
 	height: 300px;
-	background-color: white;
 	margin: 0px auto;
+	background-color: white;
+	position: relative;
 }
 
 .board {
@@ -170,4 +171,61 @@ h3 {
 
 #plays i.fa-play {
 	font-size: 36px;
+}
+
+.arrow {
+	width: 95px;
+	height: 10px;
+	padding: 47px 0px;
+	color: #43434C;
+	background-color: rgba(255,255,255,0.8);
+	text-align: center;
+	border-radius: 5px 0px 0px 5px;
+	position: absolute;
+	top: 50%;
+	left: -95px;
+	margin-top: -52px;
+	cursor: pointer;
+}
+
+.arrow:hover {
+	background-color: rgba(255,255,255,0.9);
+}
+
+.arrow.right {
+	left: auto;
+	right: -95px;
+	border-radius: 0px 5px 5px 0px;
+}
+
+.arrow i.fa {
+	font-size: 10px;
+	line-height: 10px;
+	vertical-align: top;
+}
+
+#settings {
+	width: 20px;
+	font-size: 16px;
+	line-height: 16px;
+	color: #43434C;
+	text-align: center;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+
+#like {
+	width: 20px;
+	height: 18px;
+	background-image: url(images/like.png);
+	background-position: 0px 0px;
+	cursor: pointer;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+#like:hover {
+	background-position: 0px 18px;
 }
