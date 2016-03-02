@@ -23,3 +23,44 @@ body {
 		-ms-align-items: center;
 			align-items: center;
 }
+
+#player {
+	width: 885px;
+	height: 300px;
+	background-color: white;
+	margin: 0px auto;
+}
+
+.board {
+	height: 300px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#cover {
+	width: 300px;
+	background-image: url(images/cover.jpg);
+	background-size: 300px;
+}
+
+#control {
+	width: 585px;
+	position: relative;
+	text-align: center;
+}
+
+h3 {
+	font-size: 32px;
+	line-height: 32px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.sub {
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
