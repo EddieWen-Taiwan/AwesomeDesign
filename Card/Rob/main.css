@@ -3,6 +3,101 @@ body {
 	height: 100vh;
 	margin: 0px;
 	padding: 0px;
-	background-image: url(background.jpg);
-	background-size: 100% auto;
+	background-image: url(images/background.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+	font-family: 'Open Sans';
+}
+
+.v-mid {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: -moz-box;
+	display: flex;
+
+	-webkit-align-items: center;
+	   -moz-align-items: center;
+		-ms-align-items: center;
+			align-items: center;
+}
+
+.card {
+	width: 630px;
+	height: 450px;
+	background-color: white;
+	margin: 0px auto;
+	border-radius: 5px;
+	background-image: url(images/card-background.jpg);
+	position: relative;
+}
+
+.navi {
+	width: 125px;
+	height: 100%;
+	background-color: white;
+	border-radius: 0px 5px 5px 0px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.item {
+	height: 33.3%;
+	color: #999999;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.item.active, .item:hover {
+	color: #1D2039;
+}
+
+.item > div {
+	margin: 0px auto;
+}
+
+.item i {
+	font-size: 30px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+
+.person {
+	height: 350px;
+	margin-right: 125px;
+}
+
+.tool {
+	height: 80px;
+	margin-right: 125px;
+	padding: 10px 0px;
+	border-top: 1px solid rgba(255,255,255,0.3);
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.action {
+	width: 125px;
+	padding: 15px 0px;
+	display: inline-block;
+	text-align: center;
+	border-right: 1px solid rgba(255,255,255,0.3);
+	cursor: pointer;
+}
+
+.action:nth-child(4) {
+	border-right: none;
+}
+
+.action:hover {
+	color: rgba(255,255,255,0.6);
+}
+
+.action i {
+	font-size: 24px;
+	line-height: 24px;
+	margin-bottom: 7px;
 }
