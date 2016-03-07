@@ -2,7 +2,7 @@ body {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
-	font-family: 'Open Sans';
+	font-family: Courier, 'Open Sans';
 
 	background: -webkit-linear-gradient(right, #A0AFE6 0%, #9DC3F1 35%, #9DC3F1 65%, #A0AFE6 100%);
 	background:	   -moz-linear-gradient(right, #A0AFE6 0%, #9DC3F1 35%, #9DC3F1 65%, #A0AFE6 100%);
@@ -12,6 +12,7 @@ body {
 
 .main {
 	width: 70%;
+	min-width: 620px;
 	margin-left: 15%;
 	margin-top: 12.5%;
 	position: relative;
@@ -19,8 +20,76 @@ body {
 
 .paper {
 	height: 62.5vw;
-	background-color: white;
 	margin: 0px 40px;
+	color: #364585;
+	background-color: white;
+	overflow: auto;
+}
+
+.content {
+	margin: 10vw 14vw;
+	font-size: 18px;
+	line-height: 32px;
+}
+
+.input {
+	margin-top: 90px;
+	position: relative;
+}
+
+i.fa {
+	font-size: 24px;
+	color: #7B7FD3;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+
+i.fa:hover {
+	color: #6C70C4;
+}
+
+.note {
+	font-size: 13px;
+	color: #9EA0A9;
+}
+
+input {
+	width: 90%;
+	border: none;
+	border-bottom: 3px solid #DEE0EA;
+	padding-bottom: 15px;
+	font-family: Courier, 'Open Sans';
+	font-size: 18px;
+	line-height: 18px;
+	color: #7F83D4;
+}
+
+input:focus {
+	outline: none;
+}
+
+input::-webkit-input-placeholder {
+	color: #7F83D4;
+}
+
+input:-moz-placeholder {
+	color: #7F83D4;
+	opacity: 1;
+}
+
+input::-moz-placeholder {
+	color: #7F83D4;
+	opacity: 1;
+}
+
+input:-ms-input-placeholder {
+	color: #7F83D4;
+}
+
+input:placeholder-shown {
+	color: #7F83D4;
 }
 
 .letter {
