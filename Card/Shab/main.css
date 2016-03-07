@@ -3,4 +3,9 @@ body {
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Open Sans';
+
+	background: -webkit-linear-gradient(right, #A0AFE6 0%, #9DC3F1 35%, #9DC3F1 65%, #A0AFE6 100%);
+	background:	   -moz-linear-gradient(right, #A0AFE6 0%, #9DC3F1 35%, #9DC3F1 65%, #A0AFE6 100%);
+	background:		 -o-linear-gradient(right, #A0AFE6 0%, #9DC3F1 35%, #9DC3F1 65%, #A0AFE6 100%);
+	background:			linear-gradient(right, #A0AFE6 0%, #9DC3F1 35%, #9DC3F1 65%, #A0AFE6 100%);
 }
