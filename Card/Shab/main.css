@@ -9,3 +9,80 @@ body {
 	background:		 -o-linear-gradient(right, #A0AFE6 0%, #9DC3F1 35%, #9DC3F1 65%, #A0AFE6 100%);
 	background:			linear-gradient(right, #A0AFE6 0%, #9DC3F1 35%, #9DC3F1 65%, #A0AFE6 100%);
 }
+
+.main {
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 12.5%;
+	position: relative;
+}
+
+.paper {
+	height: 62.5vw;
+	background-color: white;
+	margin: 0px 40px;
+}
+
+.letter {
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+.layer {
+	width: 54vw;
+	height: 30vw;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+.layer.right {
+	left: auto;
+	right: 0px;
+}
+
+.layer:after {
+	content: '';
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 15vw 27vw 15vw 27vw;
+	border-color: transparent transparent #FFDBAE #FFDBAE;
+	position: absolute;
+	bottom: 0px;
+}
+
+.layer.right:after {
+	border-width: 15vw 27vw 15vw 27vw;
+	border-color: transparent #FFDBAE #FFDBAE transparent;
+}
+
+/*.layer:before {
+	content: '';
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 25px 40px 25px 0px;
+	border-color: transparent red transparent transparent;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.layer.right:before {
+	border-width: 25px 0px 25px 40px;
+	border-color: transparent transparent transparent red;
+}*/
+
+.triangle {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0px 25vw 14vw 25vw;
+	border-color: transparent transparent #FFCA88 transparent;
+	margin: 0px auto;
+	position: relative;
+	z-index: 3;
+}
