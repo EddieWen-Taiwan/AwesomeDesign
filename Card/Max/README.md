@@ -2,7 +2,7 @@
 ### Profile card
 
 Implementation:
-<http://github.eddiewen.me/Implementation/Card/Max/>
+<http://github.eddiewen.me/DailyWeb/Card/Max/>
 
 ----
 

@@ -2,7 +2,7 @@
 ### User Detail
 
 Implementation:  
-<http://github.eddiewen.me/Implementation/Card/Rob/>
+<http://github.eddiewen.me/DailyWeb/Card/Rob/>
 
 ----
 

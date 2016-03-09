@@ -2,7 +2,7 @@
 ### Feed screen
 
 Implementation (Only UI):  
-<http://github.eddiewen.me/Implementation/Newsfeed/Prakhar/>  
+<http://github.eddiewen.me/DailyWeb/Newsfeed/Prakhar/>  
 I will continue this project in __React-Days__
 
 ----

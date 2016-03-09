@@ -2,7 +2,7 @@
 ### Music Player
 
 Implementation:  
-<http://github.eddiewen.me/Implementation/Card/Dima/>
+<http://github.eddiewen.me/DailyWeb/Card/Dima/>
 
 ----
 

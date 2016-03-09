@@ -2,7 +2,7 @@
 ### Subscribe
 
 Implementation:  
-<http://github.eddiewen.me/Implementation/Card/Shab/>
+<http://github.eddiewen.me/DailyWeb/Card/Shab/>
 
 ----
 

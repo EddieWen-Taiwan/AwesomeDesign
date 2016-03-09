@@ -2,7 +2,7 @@
 ### Favorites
 
 Implementation:  
-<http://github.eddiewen.me/Implementation/Button/Oleg/>
+<http://github.eddiewen.me/DailyWeb/Button/Oleg/>
 
 ----
 
