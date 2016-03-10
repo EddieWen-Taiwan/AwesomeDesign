@@ -1,6 +1,6 @@
 $(document).ready( () => {
 
-	$('#subscribe').on( 'click', (e) => {console.log('click');
+	$('#subscribe').on( 'click', (e) => {
 		$('input').focus();
 		if( !$(e.currentTarget).hasClass('focused') ) {
 			$(e.currentTarget).addClass('focused');
