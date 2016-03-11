@@ -1,0 +1,501 @@
+body {
+	height: 100vh;
+	background-color: #232327;
+	overflow: auto;
+
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: -moz-box;
+	display: flex;
+
+	-webkit-align-items: center;
+	   -moz-align-items: center;
+		-ms-align-items: center;
+			align-items: center;
+}
+
+.wp {
+	width: 90vw;
+	height: 22.5vw;
+	margin-left: 5vw;
+}
+
+.wp > div {
+	width: 4.5vw;
+	height: 4.5vw;
+	display: inline-block;
+	background-color: #C76261;
+	vertical-align: bottom;
+	opacity: 0;
+
+	-webkit-animation-duration: 5s;
+			animation-duration: 5s;
+	-webkit-animation-fill-mode: both;
+			animation-fill-mode: both;
+	-webkit-animation-iteration-count: infinite;
+			animation-iteration-count: infinite;
+}
+
+.wp > div:nth-child(1) {
+	-webkit-animation-name: div1;
+			animation-name: div1;
+}
+
+@-webkit-keyframes div1 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+@keyframes div1 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+.wp > div:nth-child(2) {
+	-webkit-animation-name: div2;
+			animation-name: div2;
+}
+
+@-webkit-keyframes div2 {
+	20%, 30%, 40%, 50%, 60%, 70% {
+		opacity: .8;
+	}
+	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
+		opacity: 0;
+	}
+}
+
+@keyframes div2 {
+	20%, 30%, 40%, 50%, 60%, 70% {
+		opacity: .8;
+	}
+	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
+		opacity: 0;
+	}
+}
+
+.wp > div:nth-child(3) {
+	-webkit-animation-name: div3;
+			animation-name: div3;
+}
+
+@-webkit-keyframes div3 {
+	20%, 30%, 40%, 50%, 60%, 70% {
+		opacity: .8;
+	}
+	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
+		opacity: 0;
+	}
+}
+
+@keyframes div3 {
+	20%, 30%, 40%, 50%, 60%, 70% {
+		opacity: .8;
+	}
+	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
+		opacity: 0;
+	}
+}
+
+.wp > div:nth-child(4) {
+	-webkit-animation-name: div4;
+			animation-name: div4;
+}
+
+@-webkit-keyframes div4 {
+	20%, 30%, 40%, 50%, 60%, 70% {
+		opacity: .8;
+	}
+	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
+		opacity: 0;
+	}
+}
+
+@keyframes div4 {
+	20%, 30%, 40%, 50%, 60%, 70% {
+		opacity: .8;
+	}
+	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
+		opacity: 0;
+	}
+}
+
+.wp > div:nth-child(5) {
+	-webkit-animation-name: div5;
+			animation-name: div5;
+}
+
+@-webkit-keyframes div5 {
+	from, 10%, 40%, 50% {
+		opacity: .8;
+	}
+	11%, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+@keyframes div5 {
+	from, 10%, 40%, 50% {
+		opacity: .8;
+	}
+	11%, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+/*.wp > div:nth-child(6) {
+	-webkit-animation-name: div6;
+			animation-name: div6;
+}
+
+@-webkit-keyframes div6 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+@keyframes div6 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+.wp > div:nth-child(7) {
+	-webkit-animation-name: div7;
+			animation-name: div7;
+}
+
+@-webkit-keyframes div7 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+@keyframes div7 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+.wp > div:nth-child(8) {
+	-webkit-animation-name: div8;
+			animation-name: div8;
+}
+
+@-webkit-keyframes div8 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+@keyframes div8 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+.wp > div:nth-child(9) {
+	-webkit-animation-name: div9;
+			animation-name: div9;
+}
+
+@-webkit-keyframes div9 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+@keyframes div9 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+.wp > div:nth-child(10) {
+	-webkit-animation-name: div10;
+			animation-name: div10;
+}
+
+@-webkit-keyframes div10 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+@keyframes div10 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+.wp > div:nth-child(11) {
+	-webkit-animation-name: div11;
+			animation-name: div11;
+}
+
+@-webkit-keyframes div11 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+@keyframes div11 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+.wp > div:nth-child(12) {
+	-webkit-animation-name: div12;
+			animation-name: div12;
+}
+
+@-webkit-keyframes div12 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+@keyframes div12 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+.wp > div:nth-child(13) {
+	-webkit-animation-name: div13;
+			animation-name: div13;
+}
+
+@-webkit-keyframes div13 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+@keyframes div13 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+.wp > div:nth-child(14) {
+	-webkit-animation-name: div14;
+			animation-name: div14;
+}
+
+@-webkit-keyframes div14 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+@keyframes div14 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+.wp > div:nth-child(15) {
+	-webkit-animation-name: div15;
+			animation-name: div15;
+}
+
+@-webkit-keyframes div15 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+@keyframes div15 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+.wp > div:nth-child(16) {
+	-webkit-animation-name: div16;
+			animation-name: div16;
+}
+
+@-webkit-keyframes div16 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+@keyframes div16 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+.wp > div:nth-child(17) {
+	-webkit-animation-name: div17;
+			animation-name: div17;
+}
+
+@-webkit-keyframes div17 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+@keyframes div17 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+.wp > div:nth-child(18) {
+	-webkit-animation-name: div18;
+			animation-name: div18;
+}
+
+@-webkit-keyframes div18 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+@keyframes div18 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+.wp > div:nth-child(19) {
+	-webkit-animation-name: div19;
+			animation-name: div19;
+}
+
+@-webkit-keyframes div19 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+@keyframes div19 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+.wp > div:nth-child(20) {
+	-webkit-animation-name: div20;
+			animation-name: div20;
+}
+
+@-webkit-keyframes div20 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}
+
+@keyframes div20 {
+	40%, 50% {
+		opacity: .8;
+	}
+	from, 39%, 51%, to {
+		opacity: 0;
+	}
+}*/
+
+/************************
+*************************
+************************/
