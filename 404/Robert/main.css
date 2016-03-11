@@ -28,15 +28,15 @@ body {
 	vertical-align: bottom;
 	opacity: 0;
 
-	-webkit-animation-duration: 5s;
-			animation-duration: 5s;
+	-webkit-animation-duration: 3s;
+			animation-duration: 3s;
 	-webkit-animation-fill-mode: both;
 			animation-fill-mode: both;
 	-webkit-animation-iteration-count: infinite;
 			animation-iteration-count: infinite;
 }
 
-.wp>div:nth-child(20n+6),.wp>div:nth-child(20n+7),.wp>div:nth-child(20n+8),.wp>div:nth-child(20n+9),.wp>div:nth-child(20n+10) {
+.wp>div:nth-child(20n+11),.wp>div:nth-child(20n+12),.wp>div:nth-child(20n+13),.wp>div:nth-child(20n+14),.wp>div:nth-child(20n+15) {
 	background-color: yellow;
 }
 
@@ -180,16 +180,16 @@ body {
 	}
 }
 
-/*.wp > div:nth-child(11) {
+.wp > div:nth-child(11) {
 	-webkit-animation-name: div11;
 			animation-name: div11;
 }
 
 @keyframes div11 {
-	40%, 50% {
+	from, 10% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	11%, to {
 		opacity: 0;
 	}
 }
@@ -200,10 +200,10 @@ body {
 }
 
 @keyframes div12 {
-	40%, 50% {
+	from, 10%, 20%, 30%, 40%, 50%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	11%, 19%, 31%, 39%, 51%, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -214,10 +214,10 @@ body {
 }
 
 @keyframes div13 {
-	40%, 50% {
+	20%, 30%, 40%, 50%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -228,10 +228,10 @@ body {
 }
 
 @keyframes div14 {
-	40%, 50% {
+	from, 10%, 20%, 30%, 40%, 50%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	11%, 19%, 31%, 39%, 51%, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -242,15 +242,15 @@ body {
 }
 
 @keyframes div15 {
-	40%, 50% {
+	20%, 30%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	from, 19%, 31%, 59%, 71%, to {
 		opacity: 0;
 	}
 }
 
-.wp > div:nth-child(16) {
+/*.wp > div:nth-child(16) {
 	-webkit-animation-name: div16;
 			animation-name: div16;
 }
@@ -464,16 +464,16 @@ body {
 	}
 }
 
-/*.wp > div:nth-child(31) {
+.wp > div:nth-child(31) {
 	-webkit-animation-name: div31;
 			animation-name: div31;
 }
 
 @keyframes div31 {
-	40%, 50% {
+	/*{
 		opacity: 1;
-	}
-	from, 39%, 51%, to {
+	}*/
+	from, to {
 		opacity: 0;
 	}
 }
@@ -484,10 +484,10 @@ body {
 }
 
 @keyframes div32 {
-	40%, 50% {
+	from, 10%, 20%, 30%, 40%, 50%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	11%, 19%, 31%, 39%, 51%, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -498,10 +498,10 @@ body {
 }
 
 @keyframes div33 {
-	40%, 50% {
+	/*{
 		opacity: 1;
-	}
-	from, 39%, 51%, to {
+	}*/
+	from, to {
 		opacity: 0;
 	}
 }
@@ -512,10 +512,10 @@ body {
 }
 
 @keyframes div34 {
-	40%, 50% {
+	from, 10% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	11%, to {
 		opacity: 0;
 	}
 }
@@ -534,7 +534,7 @@ body {
 	}
 }
 
-.wp > div:nth-child(36) {
+/*.wp > div:nth-child(36) {
 	-webkit-animation-name: div36;
 			animation-name: div36;
 }
@@ -748,16 +748,16 @@ body {
 	}
 }
 
-/*.wp > div:nth-child(51) {
+.wp > div:nth-child(51) {
 	-webkit-animation-name: div51;
 			animation-name: div51;
 }
 
 @keyframes div51 {
-	40%, 50% {
+	80%, 90% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	from, 79%, 91%, to {
 		opacity: 0;
 	}
 }
@@ -768,10 +768,10 @@ body {
 }
 
 @keyframes div52 {
-	40%, 50% {
+	from, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	11%, 19%, 31%, 39%, 51%, 59%, 71%, 79%, 91%, to {
 		opacity: 0;
 	}
 }
@@ -782,10 +782,10 @@ body {
 }
 
 @keyframes div53 {
-	40%, 50% {
+	40%, 50%, 80%, 90% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	from, 39%, 51%, 79%, 91%, to {
 		opacity: 0;
 	}
 }
@@ -796,10 +796,10 @@ body {
 }
 
 @keyframes div54 {
-	40%, 50% {
+	from, 10%, 20%, 30%, 40%, 50%, 80%, 90% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	11%, 19%, 31%, 39%, 51%, 79%, 91%, to {
 		opacity: 0;
 	}
 }
@@ -810,15 +810,15 @@ body {
 }
 
 @keyframes div55 {
-	40%, 50% {
+	from, 10%, 20%, 30%, 80%, 90% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	11%, 19%, 31%, 79%, 91%, to {
 		opacity: 0;
 	}
 }
 
-.wp > div:nth-child(56) {
+/*.wp > div:nth-child(56) {
 	-webkit-animation-name: div56;
 			animation-name: div56;
 }
@@ -1032,16 +1032,16 @@ body {
 	}
 }
 
-/*.wp > div:nth-child(71) {
+.wp > div:nth-child(71) {
 	-webkit-animation-name: div71;
 			animation-name: div71;
 }
 
 @keyframes div71 {
-	40%, 50% {
+	/*{
 		opacity: 1;
-	}
-	from, 39%, 51%, to {
+	}*/
+	from, to {
 		opacity: 0;
 	}
 }
@@ -1052,10 +1052,10 @@ body {
 }
 
 @keyframes div72 {
-	40%, 50% {
+	from, 10%, 20%, 30%, 40%, 50%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	11%, 19%, 31%, 39%, 51%, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -1066,10 +1066,10 @@ body {
 }
 
 @keyframes div73 {
-	40%, 50% {
+	/*{
 		opacity: 1;
-	}
-	from, 39%, 51%, to {
+	}*/
+	from, to {
 		opacity: 0;
 	}
 }
@@ -1094,15 +1094,15 @@ body {
 }
 
 @keyframes div75 {
-	40%, 50% {
+	20%, 30% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	from, 19%, 31%, to {
 		opacity: 0;
 	}
 }
 
-.wp > div:nth-child(76) {
+/*.wp > div:nth-child(76) {
 	-webkit-animation-name: div76;
 			animation-name: div76;
 }
@@ -1316,16 +1316,16 @@ body {
 	}
 }
 
-/*.wp > div:nth-child(91) {
+.wp > div:nth-child(91) {
 	-webkit-animation-name: div91;
 			animation-name: div91;
 }
 
 @keyframes div91 {
-	40%, 50% {
+	from, 10% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	11%, to {
 		opacity: 0;
 	}
 }
@@ -1336,10 +1336,10 @@ body {
 }
 
 @keyframes div92 {
-	40%, 50% {
+	from, 10%, 20%, 30%, 40%, 50%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	11%, 19%, 31%, 39%, 51%, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -1350,10 +1350,10 @@ body {
 }
 
 @keyframes div93 {
-	40%, 50% {
+	20%, 30%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	from, 19%, 31%, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -1364,10 +1364,10 @@ body {
 }
 
 @keyframes div94 {
-	40%, 50% {
+	20%, 30%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	from, 19%, 31%, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -1378,15 +1378,15 @@ body {
 }
 
 @keyframes div95 {
-	40%, 50% {
+	20%, 30%, 40%, 50%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
 		opacity: 0;
 	}
 }
 
-.wp > div:nth-child(96) {
+/*.wp > div:nth-child(96) {
 	-webkit-animation-name: div96;
 			animation-name: div96;
 }
