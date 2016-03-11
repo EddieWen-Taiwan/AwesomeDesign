@@ -17,7 +17,7 @@ body {
 .wp {
 	width: 90vw;
 	height: 22.5vw;
-	margin-left: 5vw;
+	margin-left: 2.5vw;
 }
 
 .wp > div {
@@ -28,16 +28,12 @@ body {
 	vertical-align: bottom;
 	opacity: 0;
 
-	-webkit-animation-duration: 3s;
-			animation-duration: 3s;
+	-webkit-animation-duration: 5s;
+			animation-duration: 5s;
 	-webkit-animation-fill-mode: both;
 			animation-fill-mode: both;
 	-webkit-animation-iteration-count: infinite;
 			animation-iteration-count: infinite;
-}
-
-.wp>div:nth-child(20n+11),.wp>div:nth-child(20n+12),.wp>div:nth-child(20n+13),.wp>div:nth-child(20n+14),.wp>div:nth-child(20n+15) {
-	background-color: yellow;
 }
 
 .wp > div:nth-child(1) {
@@ -106,20 +102,6 @@ body {
 		opacity: 1;
 	}
 	11%, 39%, 51%, to {
-		opacity: 0;
-	}
-}
-
-.wp > div:nth-child(6) {
-	-webkit-animation-name: div6;
-			animation-name: div6;
-}
-
-@keyframes div6 {
-	/*{
-		opacity: 1;
-	}*/
-	from, to {
 		opacity: 0;
 	}
 }
@@ -250,16 +232,16 @@ body {
 	}
 }
 
-/*.wp > div:nth-child(16) {
+.wp > div:nth-child(16) {
 	-webkit-animation-name: div16;
 			animation-name: div16;
 }
 
 @keyframes div16 {
-	40%, 50% {
+	from, 10% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	11%, to {
 		opacity: 0;
 	}
 }
@@ -270,10 +252,10 @@ body {
 }
 
 @keyframes div17 {
-	40%, 50% {
+	20%, 30%, 40%, 50%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -284,10 +266,10 @@ body {
 }
 
 @keyframes div18 {
-	40%, 50% {
+	20%, 30% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	from, 19%, 31%, to {
 		opacity: 0;
 	}
 }
@@ -298,10 +280,10 @@ body {
 }
 
 @keyframes div19 {
-	40%, 50% {
+	20%, 30% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	from, 19%, 31%, to {
 		opacity: 0;
 	}
 }
@@ -312,31 +294,17 @@ body {
 }
 
 @keyframes div20 {
-	40%, 50% {
+	20%, 30%, 40%, 50%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
 		opacity: 0;
 	}
-}*/
+}
 
 /************************
 *************************
 ************************/
-
-.wp > div:nth-child(21) {
-	-webkit-animation-name: div21;
-			animation-name: div21;
-}
-
-@keyframes div21 {
-	/*{
-		opacity: 1;
-	}*/
-	from, to {
-		opacity: 0;
-	}
-}
 
 .wp > div:nth-child(22) {
 	-webkit-animation-name: div22;
@@ -390,20 +358,6 @@ body {
 		opacity: 1;
 	}
 	11%, 19%, 31%, 59%, 71%, to {
-		opacity: 0;
-	}
-}
-
-.wp > div:nth-child(26) {
-	-webkit-animation-name: div26;
-			animation-name: div26;
-}
-
-@keyframes div26 {
-	/*{
-		opacity: 1;
-	}*/
-	from, to {
 		opacity: 0;
 	}
 }
@@ -464,20 +418,6 @@ body {
 	}
 }
 
-.wp > div:nth-child(31) {
-	-webkit-animation-name: div31;
-			animation-name: div31;
-}
-
-@keyframes div31 {
-	/*{
-		opacity: 1;
-	}*/
-	from, to {
-		opacity: 0;
-	}
-}
-
 .wp > div:nth-child(32) {
 	-webkit-animation-name: div32;
 			animation-name: div32;
@@ -488,20 +428,6 @@ body {
 		opacity: 1;
 	}
 	11%, 19%, 31%, 39%, 51%, 59%, 71%, to {
-		opacity: 0;
-	}
-}
-
-.wp > div:nth-child(33) {
-	-webkit-animation-name: div33;
-			animation-name: div33;
-}
-
-@keyframes div33 {
-	/*{
-		opacity: 1;
-	}*/
-	from, to {
 		opacity: 0;
 	}
 }
@@ -534,16 +460,16 @@ body {
 	}
 }
 
-/*.wp > div:nth-child(36) {
+.wp > div:nth-child(36) {
 	-webkit-animation-name: div36;
 			animation-name: div36;
 }
 
 @keyframes div36 {
-	40%, 50% {
+	from, 10% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	11%, to {
 		opacity: 0;
 	}
 }
@@ -554,10 +480,10 @@ body {
 }
 
 @keyframes div37 {
-	40%, 50% {
+	20%, 30%, 40%, 50%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -582,10 +508,10 @@ body {
 }
 
 @keyframes div39 {
-	40%, 50% {
+	60%, 70% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	from, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -602,25 +528,11 @@ body {
 	from, 39%, 51%, to {
 		opacity: 0;
 	}
-}*/
+}
 
 /************************
 *************************
 ************************/
-
-.wp > div:nth-child(41) {
-	-webkit-animation-name: div41;
-			animation-name: div41;
-}
-
-@keyframes div41 {
-	/*{
-		opacity: 1;
-	}*/
-	from, to {
-		opacity: 0;
-	}
-}
 
 .wp > div:nth-child(42) {
 	-webkit-animation-name: div42;
@@ -818,16 +730,16 @@ body {
 	}
 }
 
-/*.wp > div:nth-child(56) {
+.wp > div:nth-child(56) {
 	-webkit-animation-name: div56;
 			animation-name: div56;
 }
 
 @keyframes div56 {
-	40%, 50% {
+	from, 10% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	11%, to {
 		opacity: 0;
 	}
 }
@@ -838,10 +750,10 @@ body {
 }
 
 @keyframes div57 {
-	40%, 50% {
+	20%, 30%, 40%, 50%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -852,10 +764,10 @@ body {
 }
 
 @keyframes div58 {
-	40%, 50% {
+	20%, 30%, 40%, 50%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -866,10 +778,10 @@ body {
 }
 
 @keyframes div59 {
-	40%, 50% {
+	20%, 30%, 40%, 50% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	from, 19%, 31%, 39%, 51%, to {
 		opacity: 0;
 	}
 }
@@ -886,25 +798,11 @@ body {
 	from, 39%, 51%, to {
 		opacity: 0;
 	}
-}*/
+}
 
 /************************
 *************************
 ************************/
-
-.wp > div:nth-child(61) {
-	-webkit-animation-name: div61;
-			animation-name: div61;
-}
-
-@keyframes div61 {
-	/*{
-		opacity: 1;
-	}*/
-	from, to {
-		opacity: 0;
-	}
-}
 
 .wp > div:nth-child(62) {
 	-webkit-animation-name: div62;
@@ -934,20 +832,6 @@ body {
 	}
 }
 
-.wp > div:nth-child(64) {
-	-webkit-animation-name: div64;
-			animation-name: div64;
-}
-
-@keyframes div64 {
-	/*{
-		opacity: 1;
-	}*/
-	from, to {
-		opacity: 0;
-	}
-}
-
 .wp > div:nth-child(65) {
 	-webkit-animation-name: div65;
 			animation-name: div65;
@@ -958,20 +842,6 @@ body {
 		opacity: 1;
 	}
 	from, 59%, 71%, to {
-		opacity: 0;
-	}
-}
-
-.wp > div:nth-child(66) {
-	-webkit-animation-name: div66;
-			animation-name: div66;
-}
-
-@keyframes div66 {
-	/*{
-		opacity: 1;
-	}*/
-	from, to {
 		opacity: 0;
 	}
 }
@@ -1032,20 +902,6 @@ body {
 	}
 }
 
-.wp > div:nth-child(71) {
-	-webkit-animation-name: div71;
-			animation-name: div71;
-}
-
-@keyframes div71 {
-	/*{
-		opacity: 1;
-	}*/
-	from, to {
-		opacity: 0;
-	}
-}
-
 .wp > div:nth-child(72) {
 	-webkit-animation-name: div72;
 			animation-name: div72;
@@ -1056,20 +912,6 @@ body {
 		opacity: 1;
 	}
 	11%, 19%, 31%, 39%, 51%, 59%, 71%, to {
-		opacity: 0;
-	}
-}
-
-.wp > div:nth-child(73) {
-	-webkit-animation-name: div73;
-			animation-name: div73;
-}
-
-@keyframes div73 {
-	/*{
-		opacity: 1;
-	}*/
-	from, to {
 		opacity: 0;
 	}
 }
@@ -1102,16 +944,16 @@ body {
 	}
 }
 
-/*.wp > div:nth-child(76) {
+.wp > div:nth-child(76) {
 	-webkit-animation-name: div76;
 			animation-name: div76;
 }
 
 @keyframes div76 {
-	40%, 50% {
+	from, 10% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	11%, to {
 		opacity: 0;
 	}
 }
@@ -1122,24 +964,10 @@ body {
 }
 
 @keyframes div77 {
-	40%, 50% {
+	20%, 30%, 40%, 50%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
-		opacity: 0;
-	}
-}
-
-.wp > div:nth-child(78) {
-	-webkit-animation-name: div78;
-			animation-name: div78;
-}
-
-@keyframes div78 {
-	40%, 50% {
-		opacity: 1;
-	}
-	from, 39%, 51%, to {
+	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -1150,10 +978,10 @@ body {
 }
 
 @keyframes div79 {
-	40%, 50% {
+	40%, 50%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	from, 39%, 51%, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -1170,25 +998,11 @@ body {
 	from, 39%, 51%, to {
 		opacity: 0;
 	}
-}*/
+}
 
 /************************
 *************************
 ************************/
-
-.wp > div:nth-child(81) {
-	-webkit-animation-name: div81;
-			animation-name: div81;
-}
-
-@keyframes div81 {
-	/*{
-		opacity: 1;
-	}*/
-	from, to {
-		opacity: 0;
-	}
-}
 
 .wp > div:nth-child(82) {
 	-webkit-animation-name: div82;
@@ -1228,34 +1042,6 @@ body {
 		opacity: 1;
 	}
 	from, 59%, 71%, to {
-		opacity: 0;
-	}
-}
-
-.wp > div:nth-child(85) {
-	-webkit-animation-name: div85;
-			animation-name: div85;
-}
-
-@keyframes div85 {
-	/*{
-		opacity: 1;
-	}*/
-	from, to {
-		opacity: 0;
-	}
-}
-
-.wp > div:nth-child(86) {
-	-webkit-animation-name: div86;
-			animation-name: div86;
-}
-
-@keyframes div86 {
-	/*{
-		opacity: 1;
-	}*/
-	from, to {
 		opacity: 0;
 	}
 }
@@ -1386,16 +1172,16 @@ body {
 	}
 }
 
-/*.wp > div:nth-child(96) {
+.wp > div:nth-child(96) {
 	-webkit-animation-name: div96;
 			animation-name: div96;
 }
 
 @keyframes div96 {
-	40%, 50% {
+	from, 10% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	11%, to {
 		opacity: 0;
 	}
 }
@@ -1406,10 +1192,10 @@ body {
 }
 
 @keyframes div97 {
-	40%, 50% {
+	20%, 30%, 40%, 50%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -1420,10 +1206,10 @@ body {
 }
 
 @keyframes div98 {
-	40%, 50% {
+	20%, 30% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	from, 19%, 31%, to {
 		opacity: 0;
 	}
 }
@@ -1434,10 +1220,10 @@ body {
 }
 
 @keyframes div99 {
-	40%, 50% {
+	20%, 30% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	from, 19%, 31%, to {
 		opacity: 0;
 	}
 }
@@ -1448,14 +1234,10 @@ body {
 }
 
 @keyframes div100 {
-	40%, 50% {
+	20%, 30%, 40%, 50%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 39%, 51%, to {
+	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
 		opacity: 0;
 	}
-}*/
-
-/************************
-*************************
-************************/
+}
