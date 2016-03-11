@@ -28,8 +28,8 @@ body {
 	vertical-align: bottom;
 	opacity: 0;
 
-	-webkit-animation-duration: 5s;
-			animation-duration: 5s;
+	-webkit-animation-duration: 2s;
+			animation-duration: 2s;
 	-webkit-animation-fill-mode: both;
 			animation-fill-mode: both;
 	-webkit-animation-iteration-count: infinite;
@@ -326,10 +326,10 @@ body {
 }
 
 @keyframes div21 {
-	40%, 50% {
+	/*{
 		opacity: 1;
-	}
-	from, 39%, 51%, to {
+	}*/
+	from, to {
 		opacity: 0;
 	}
 }
@@ -340,10 +340,10 @@ body {
 }
 
 @keyframes div22 {
-	20%, 30%, 40%, 50%, 60%, 70% {
+	20%, 30%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
+	from, 19%, 31%, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -354,10 +354,10 @@ body {
 }
 
 @keyframes div23 {
-	20%, 30%, 40%, 50%, 60%, 70% {
+	40%, 50% {
 		opacity: 1;
 	}
-	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
+	from, 39%, 51%, to {
 		opacity: 0;
 	}
 }
@@ -368,10 +368,10 @@ body {
 }
 
 @keyframes div24 {
-	20%, 30%, 40%, 50%, 60%, 70% {
+	20%, 30% {
 		opacity: 1;
 	}
-	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
+	from, 19%, 31%, to {
 		opacity: 0;
 	}
 }
@@ -382,10 +382,10 @@ body {
 }
 
 @keyframes div25 {
-	from, 10%, 40%, 50% {
+	from, 10%, 20%, 30%, 60%, 70% {
 		opacity: 1;
 	}
-	11%, 39%, 51%, to {
+	11%, 19%, 31%, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -610,10 +610,10 @@ body {
 }
 
 @keyframes div41 {
-	40%, 50% {
+	/*{
 		opacity: 1;
-	}
-	from, 39%, 51%, to {
+	}*/
+	from, to {
 		opacity: 0;
 	}
 }
@@ -624,10 +624,10 @@ body {
 }
 
 @keyframes div42 {
-	20%, 30%, 40%, 50%, 60%, 70% {
+	20%, 30%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
+	from, 19%, 31%, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -652,10 +652,10 @@ body {
 }
 
 @keyframes div44 {
-	20%, 30%, 40%, 50%, 60%, 70% {
+	20%, 30%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
+	from, 19%, 31%, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -666,10 +666,10 @@ body {
 }
 
 @keyframes div45 {
-	from, 10%, 40%, 50% {
+	from, 10% {
 		opacity: 1;
 	}
-	11%, 39%, 51%, to {
+	11%, to {
 		opacity: 0;
 	}
 }
@@ -894,10 +894,10 @@ body {
 }
 
 @keyframes div61 {
-	40%, 50% {
+	/*{
 		opacity: 1;
-	}
-	from, 39%, 51%, to {
+	}*/
+	from, to {
 		opacity: 0;
 	}
 }
@@ -908,10 +908,10 @@ body {
 }
 
 @keyframes div62 {
-	20%, 30%, 40%, 50%, 60%, 70% {
+	20%, 30%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
+	from, 19%, 31%, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -922,10 +922,10 @@ body {
 }
 
 @keyframes div63 {
-	20%, 30%, 40%, 50%, 60%, 70% {
+	40%, 50% {
 		opacity: 1;
 	}
-	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
+	from, 39%, 51%, to {
 		opacity: 0;
 	}
 }
@@ -936,10 +936,10 @@ body {
 }
 
 @keyframes div64 {
-	20%, 30%, 40%, 50%, 60%, 70% {
+	/*{
 		opacity: 1;
-	}
-	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
+	}*/
+	from, to {
 		opacity: 0;
 	}
 }
@@ -950,10 +950,10 @@ body {
 }
 
 @keyframes div65 {
-	from, 10%, 40%, 50% {
+	60%, 70% {
 		opacity: 1;
 	}
-	11%, 39%, 51%, to {
+	from, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -1178,10 +1178,10 @@ body {
 }
 
 @keyframes div81 {
-	40%, 50% {
+	/*{
 		opacity: 1;
-	}
-	from, 39%, 51%, to {
+	}*/
+	from, to {
 		opacity: 0;
 	}
 }
@@ -1192,10 +1192,10 @@ body {
 }
 
 @keyframes div82 {
-	20%, 30%, 40%, 50%, 60%, 70% {
+	20%, 30%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
+	from, 19%, 31%, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -1206,10 +1206,10 @@ body {
 }
 
 @keyframes div83 {
-	20%, 30%, 40%, 50%, 60%, 70% {
+	40%, 50%, 60%, 70% {
 		opacity: 1;
 	}
-	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
+	from, 39%, 51%, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -1220,10 +1220,10 @@ body {
 }
 
 @keyframes div84 {
-	20%, 30%, 40%, 50%, 60%, 70% {
+	60%, 70% {
 		opacity: 1;
 	}
-	from, 19%, 31%, 39%, 51%, 59%, 71%, to {
+	from, 59%, 71%, to {
 		opacity: 0;
 	}
 }
@@ -1234,10 +1234,10 @@ body {
 }
 
 @keyframes div85 {
-	from, 10%, 40%, 50% {
+	/*{
 		opacity: 1;
-	}
-	11%, 39%, 51%, to {
+	}*/
+	from, to {
 		opacity: 0;
 	}
 }
