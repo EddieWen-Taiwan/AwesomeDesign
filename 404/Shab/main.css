@@ -1,0 +1,15 @@
+body {
+	height: 100vh;
+	background-color: #F2FAFC;
+	overflow: auto;
+
+	/*display: -webkit-flex;
+	display: -ms-flexbox;
+	display: -moz-box;
+	display: flex;
+
+	-webkit-align-items: center;
+	   -moz-align-items: center;
+		-ms-align-items: center;
+			align-items: center;*/
+}
