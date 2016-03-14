@@ -1,0 +1,131 @@
+body {
+	height: 100vh;
+	margin: 0px;
+	padding: 0px;
+	background-color: #F2FAFC;
+	font-family: 'Open Sans', sans-serif;
+	overflow: hidden;
+}
+
+.wave {
+	width: 100%;
+	background-size: auto 100%;
+	background-repeat: repeat-x;
+	position: absolute;
+	-webkit-animation-fill-mode: both;
+			animation-fill-mode: both;
+	-webkit-animation-iteration-count: infinite;
+			animation-iteration-count: infinite;
+}
+
+.wave.first {
+	height: 150px;
+	bottom: 0px;
+	background-image: url(wave-1.png);
+	-webkit-animation-duration: 7s;
+			animation-duration: 7s;
+	-webkit-animation-name: wave1;
+			animation-name: wave1;
+}
+
+@keyframes wave1 {
+	to {
+		background-position-x: -1000px;
+	}
+	from {
+		background-position-x: 0px;
+	}
+}
+
+.wave.second {
+	height: 200px;
+	bottom: 50px;
+	background-image: url(wave-2.png);
+	-webkit-animation-duration: 10s;
+			animation-duration: 10s;
+	-webkit-animation-name: wave2;
+			animation-name: wave2;
+}
+
+@keyframes wave2 {
+	to {
+		background-position-x: -1203px;
+	}
+	66% {
+		background-position-x: -650px;
+	}
+	33% {
+		background-position-x: -120px;
+	}
+	from {
+		background-position-x: 130px;
+	}
+}
+
+.wave.third {
+	height: 210px;
+	bottom: 90px;
+	background-image: url(wave-3.png);
+	-webkit-animation-duration: 8s;
+			animation-duration: 8s;
+	-webkit-animation-name: wave3;
+			animation-name: wave3;
+}
+
+@keyframes wave3 {
+	to {
+		background-position-x: -1740px;
+	}
+	50% {
+		background-position-x: -1280px;
+	}
+	from {
+		background-position-x: -340px;
+	}
+}
+
+#lighthouse {
+	width: 198px;
+	height: 352px;
+	background-image: url(lighthouse.png);
+	position: absolute;
+	left: 60%;
+	bottom: 200px;
+}
+
+.card {
+	width: 330px;
+	height: 320px;
+	margin: 0px auto;
+	margin-top: 70px;
+	padding-top: 50px;
+	color: #002D40;
+	background-color: white;
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+	text-align: center;
+}
+
+.didot {
+	font-family: 'DiDot', sans-serif;
+	font-size: 110px;
+	letter-spacing: 3px;
+}
+
+.not {
+	font-size: 13px;
+}
+
+.home {
+	width: 166px;
+	margin: 0px auto;
+	margin-top: 50px;
+	padding: 17px 0px;
+	border-radius: 28px;
+	color: white;
+	background-color: #01C8FF;
+	cursor: pointer;
+}
+
+.home:hover {
+	background-color: #17B8E5;
+}
