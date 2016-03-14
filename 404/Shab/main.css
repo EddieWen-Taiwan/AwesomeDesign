@@ -3,6 +3,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	background-color: #F2FAFC;
+	font-family: 'Open Sans', sans-serif;
 	overflow: hidden;
 }
 
@@ -81,4 +82,50 @@ body {
 	from {
 		background-position-x: -340px;
 	}
+}
+
+#lighthouse {
+	width: 198px;
+	height: 352px;
+	background-image: url(lighthouse.png);
+	position: absolute;
+	left: 60%;
+	bottom: 200px;
+}
+
+.card {
+	width: 330px;
+	height: 320px;
+	margin: 0px auto;
+	margin-top: 70px;
+	padding-top: 50px;
+	color: #002D40;
+	background-color: white;
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+	text-align: center;
+}
+
+.didot {
+	font-family: 'DiDot', sans-serif;
+	font-size: 110px;
+	letter-spacing: 3px;
+}
+
+.not {
+	font-size: 13px;
+}
+
+.home {
+	width: 166px;
+	margin: 0px auto;
+	margin-top: 50px;
+	padding: 17px 0px;
+	border-radius: 28px;
+	color: white;
+	background-color: #01C8FF;
+	cursor: pointer;
+}
+
+.home:hover {
+	background-color: #17B8E5;
 }
