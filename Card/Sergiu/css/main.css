@@ -1,0 +1,22 @@
+body {
+	width: 100%;
+	height: 100vh;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans';
+	background-color: #9DCFAC;
+
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: -moz-box;
+	display: flex;
+	-webkit-align-items: center;
+	   -moz-align-items: center;
+		-ms-align-items: center;
+			align-items: center;
+}
+
+body > .download-card {
+	width: 640px;
+	height: 240px;
+}
