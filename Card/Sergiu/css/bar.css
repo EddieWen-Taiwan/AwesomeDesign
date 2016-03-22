@@ -1,0 +1,19 @@
+.progress-bar {
+	border-radius: 6px;
+	background-color: #EDEDEF;
+	margin: 35px auto 30px auto;
+}
+
+.progress-bar > .progress {
+	width: 80%;
+}
+
+.progress {
+	height: 100%;
+	border-radius: 6px;
+
+	background: -webkit-linear-gradient(left, #D5D6DB 0%, #9A9EA7 100%);
+	background:	   -moz-linear-gradient(left, #D5D6DB 0%, #9A9EA7 100%);
+	background:		 -o-linear-gradient(left, #D5D6DB 0%, #9A9EA7 100%);
+	background:			linear-gradient(left, #D5D6DB 0%, #9A9EA7 100%);
+}
