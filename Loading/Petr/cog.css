@@ -32,6 +32,19 @@ body {
 
 .cog-box > .cog {
 	position: absolute;
+
+	transition-timing-function: ease-out;
+
+	-webkit-animation-duration: 6s;
+			animation-duration: 6s;
+	-webkit-animation-fill-mode: both;
+			animation-fill-mode: both;
+
+	-webkit-animation-iteration-count: infinite;
+	 		animation-iteration-count: infinite;
+
+	-webkit-animation-name: rotating;
+			animation-name: rotating;
 }
 
 .cog-box > .cog._l {
@@ -48,6 +61,9 @@ body {
 	background-image: url(images/cog-2.png);
 	left: 50px;
 	bottom: 40px;
+
+	-webkit-animation-name: anti-rotating;
+			animation-name: anti-rotating;
 }
 
 .cog-box > .cog._s {
@@ -56,4 +72,40 @@ body {
 	background-image: url(images/cog-3.png);
 	right: 90px;
 	bottom: 90px;
+}
+
+@-webkit-keyframes rotating {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(-720deg);
+	}
+}
+
+@keyframes rotating {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(-720deg);
+	}
+}
+
+@-webkit-keyframes anti-rotating {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(720deg);
+	}
+}
+
+@keyframes anti-rotating {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(720deg);
+	}
 }
