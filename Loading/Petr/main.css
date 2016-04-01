@@ -1,0 +1,59 @@
+body {
+	width: 100%;
+	height: 100vh;
+	margin: 0px;
+	padding: 0px;
+
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: -moz-box;
+	display: flex;
+	-webkit-align-items: center;
+	   -moz-align-items: center;
+		-ms-align-items: center;
+			align-items: center;
+}
+
+.cog-box {
+	width: 400px;
+	height: 400px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.cog-box > .mask {
+	width: 200px;
+	height: 200px;
+	border: 100px solid rgba(255,255,255,0.85);
+	border-radius: 200px;
+	position: relative;
+	z-index: 5;
+}
+
+.cog-box > .cog {
+	position: absolute;
+}
+
+.cog-box > .cog._l {
+	width: 200px;
+	height: 200px;
+	background-image: url(images/cog-1.png);
+	top: 10px;
+	left: 100px;
+}
+
+.cog-box > .cog._m {
+	width: 150px;
+	height: 150px;
+	background-image: url(images/cog-2.png);
+	left: 50px;
+	bottom: 40px;
+}
+
+.cog-box > .cog._s {
+	width: 100px;
+	height: 100px;
+	background-image: url(images/cog-3.png);
+	right: 90px;
+	bottom: 90px;
+}
