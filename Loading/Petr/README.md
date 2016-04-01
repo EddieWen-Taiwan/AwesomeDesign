@@ -6,7 +6,7 @@ Implementation:
 
 ----
 
-Petr design
+Petr's design  
 ![loading](loader.gif)
 
 source: <https://dribbble.com/shots/946595-App-loader-GIF-animation>
