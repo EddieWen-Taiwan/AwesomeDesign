@@ -1,0 +1,16 @@
+.sun-area {
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+	bottom: 0px;
+	overflow: hidden;
+}
+
+.sun {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	background-color: #FBF5CA;
+}

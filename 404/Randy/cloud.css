@@ -1,0 +1,58 @@
+.cloud-block {
+	width: 350px;
+	height: 100px;
+	position: absolute;
+}
+
+.cloud-block._front {
+	top: 110px;
+	right: -200px;
+}
+
+.cloud-block._back {
+	top: 50px;
+	left: -120px;
+	z-index: -1;
+	-webkit-transform: rotate(180deg);
+    		transform: rotate(180deg);
+}
+
+.cloud-block > .cloud {
+	height: 25px;
+	border-radius: 10px;
+	display: inline-block;
+	background-color: #C2DAE7;
+	position: absolute;
+}
+
+.cloud._1 {
+	width: 120px;
+	top: 0px;
+	left: 90px;
+}
+
+.cloud._2 {
+	width: 280px;
+	top: 35px;
+	left: -30px;
+}
+
+.cloud._3 {
+	width: 280px;
+	top: 70px;
+	right: 10px;
+}
+
+.cloud._link {
+	width: 30px;
+	border-radius: 0px;
+	top: 20px;
+	left: 110px;
+}
+
+.cloud._link2 {
+	width: 50px;
+	border-radius: 0px;
+	top: 60px;
+	left: 180px;
+}
