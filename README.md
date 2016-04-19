@@ -27,7 +27,7 @@ Find people's Daily UI design to implement it.
 
 #### Loading
 
-[Rafael's Loading](https://github.com/EddieWen-Taiwan/DailyWeb/tree/gh-pages/Loading/Rafael) / [Petr's Loader](https://github.com/EddieWen-Taiwan/DailyWeb/tree/gh-pages/Loading/Petr)
+[Rafael's Loading](https://github.com/EddieWen-Taiwan/DailyWeb/tree/gh-pages/Loading/Rafael) / [Petr's Loader](https://github.com/EddieWen-Taiwan/DailyWeb/tree/gh-pages/Loading/Petr) / [Inbox's Loading](https://github.com/EddieWen-Taiwan/DailyWeb/tree/gh-pages/Loading/Inbox)
 
 #### Newsfeed
 
